@@ -1,0 +1,79 @@
+\hypertarget{class_flight_map}{}\section{Flight\+Map Class Reference}
+\label{class_flight_map}\index{Flight\+Map@{Flight\+Map}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_city}{City} $\ast$ \hyperlink{class_flight_map_a94ebe8b02bed441e429bb485680a964e}{add\+City} (std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Adds a new city to the map. \end{DoxyCompactList}\item 
+\hyperlink{struct_city}{City} $\ast$ \hyperlink{class_flight_map_a96d6d4164fa2a37584863a5e27d42fe3}{get\+City} (std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Gets a city from the map with a specific name. \end{DoxyCompactList}\item 
+std\+::stack$<$ \hyperlink{struct_flight}{Flight} $\ast$ $>$ \hyperlink{class_flight_map_a91f8ec291a0305ddccc64dd208e34113}{get\+Path} (\hyperlink{struct_city}{City} $\ast$from, \hyperlink{struct_city}{City} $\ast$to)
+\begin{DoxyCompactList}\small\item\em Finds path of flights to get from one city to another. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_flight_map_a94ebe8b02bed441e429bb485680a964e}\label{class_flight_map_a94ebe8b02bed441e429bb485680a964e}} 
+\index{Flight\+Map@{Flight\+Map}!add\+City@{add\+City}}
+\index{add\+City@{add\+City}!Flight\+Map@{Flight\+Map}}
+\subsubsection{\texorpdfstring{add\+City()}{addCity()}}
+{\footnotesize\ttfamily \hyperlink{struct_city}{City} $\ast$ Flight\+Map\+::add\+City (\begin{DoxyParamCaption}\item[{std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Adds a new city to the map. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em name} & Name of the new city\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the new city 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_flight_map_a96d6d4164fa2a37584863a5e27d42fe3}\label{class_flight_map_a96d6d4164fa2a37584863a5e27d42fe3}} 
+\index{Flight\+Map@{Flight\+Map}!get\+City@{get\+City}}
+\index{get\+City@{get\+City}!Flight\+Map@{Flight\+Map}}
+\subsubsection{\texorpdfstring{get\+City()}{getCity()}}
+{\footnotesize\ttfamily \hyperlink{struct_city}{City} $\ast$ Flight\+Map\+::get\+City (\begin{DoxyParamCaption}\item[{std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Gets a city from the map with a specific name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em name} & The name of the city to search for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the found city, or nullptr if not found 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_flight_map_a91f8ec291a0305ddccc64dd208e34113}\label{class_flight_map_a91f8ec291a0305ddccc64dd208e34113}} 
+\index{Flight\+Map@{Flight\+Map}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!Flight\+Map@{Flight\+Map}}
+\subsubsection{\texorpdfstring{get\+Path()}{getPath()}}
+{\footnotesize\ttfamily std\+::stack$<$ \hyperlink{struct_flight}{Flight} $\ast$ $>$ Flight\+Map\+::get\+Path (\begin{DoxyParamCaption}\item[{\hyperlink{struct_city}{City} $\ast$}]{from,  }\item[{\hyperlink{struct_city}{City} $\ast$}]{to }\end{DoxyParamCaption})}
+
+
+
+Finds path of flights to get from one city to another. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em from} & Pointer to the city to start searching from\\
+\hline
+\mbox{\tt in}  & {\em to} & Pointer to the city to search for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyParagraph}{Algorithm}
+Starting with from, searches through each adjacent unvisited city and then repeats until it either finds to or runs out of adjacent cities
+\end{DoxyParagraph}
+\begin{DoxyReturn}{Returns}
+A stack of flights from the origin city to the destination city Or an empty stack if no path could be found 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+P\+A03/\hyperlink{_flight_map_v1_8h}{Flight\+Map\+V1.\+h}\item 
+P\+A03/\hyperlink{_flight_map_v1_8cpp}{Flight\+Map\+V1.\+cpp}\end{DoxyCompactItemize}

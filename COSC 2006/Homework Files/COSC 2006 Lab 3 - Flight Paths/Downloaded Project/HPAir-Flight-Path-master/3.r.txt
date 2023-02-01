@@ -1,0 +1,10 @@
+Albuquerque,San Diego
+Albuquerque,Paris
+San Diego,Chicago
+Sacramento,Orlando
+Manila,Taipei
+Detroit,Fresno
+Heaven,Phoenix
+St. Louis,San Diego
+Orlando,Sacramento
+Kansas City,Portland

@@ -1,0 +1,64 @@
+\hypertarget{_flight_map_v1_8h}{}\section{P\+A03/\+Flight\+Map\+V1.h File Reference}
+\label{_flight_map_v1_8h}\index{P\+A03/\+Flight\+Map\+V1.\+h@{P\+A03/\+Flight\+Map\+V1.\+h}}
+
+
+Header for \hyperlink{class_flight_map}{Flight\+Map} implementation.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$stack$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_city}{City}
+\item 
+struct \hyperlink{struct_flight}{Flight}
+\item 
+class \hyperlink{class_flight_map}{Flight\+Map}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_flight_map_v1_8h_a69d4676733f5e850f451942b6d901382}\label{_flight_map_v1_8h_a69d4676733f5e850f451942b6d901382}} 
+\#define {\bfseries L\+O\+G\+\_\+\+F\+I\+LE}~\char`\"{}log.\+txt\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_flight_map_v1_8h_a696bd292b7d58fe0e9206a3dca33a918}{log} (const std\+::string \&, bool=true)
+\begin{DoxyCompactList}\small\item\em Logs information to file defined in L\+O\+G\+\_\+\+F\+I\+LE. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header for \hyperlink{class_flight_map}{Flight\+Map} implementation. 
+
+\hyperlink{class_flight_map}{Flight\+Map} class declaration, as well as \hyperlink{struct_city}{City} and \hyperlink{struct_flight}{Flight} structs and log function used by \hyperlink{class_flight_map}{Flight\+Map}
+
+\begin{DoxyVersion}{Version}
+1.\+00 Alexander Novotny First version 
+\end{DoxyVersion}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_flight_map_v1_8h_a696bd292b7d58fe0e9206a3dca33a918}\label{_flight_map_v1_8h_a696bd292b7d58fe0e9206a3dca33a918}} 
+\index{Flight\+Map\+V1.\+h@{Flight\+Map\+V1.\+h}!log@{log}}
+\index{log@{log}!Flight\+Map\+V1.\+h@{Flight\+Map\+V1.\+h}}
+\subsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily void log (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{bool}]{new\+Line }\end{DoxyParamCaption})}
+
+
+
+Logs information to file defined in L\+O\+G\+\_\+\+F\+I\+LE. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em text} & Text to log\\
+\hline
+\mbox{\tt in}  & {\em new\+Line} & Whether std\+::endl should be printed at the end. Defaults to true\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+If L\+O\+G\+\_\+\+F\+I\+LE not defined, nothing will happen 
+\end{DoxyNote}

@@ -1,0 +1,8 @@
+S,R
+A,B
+S,Z
+S,C
+P,Q
+B,W
+T,X
+Y,P

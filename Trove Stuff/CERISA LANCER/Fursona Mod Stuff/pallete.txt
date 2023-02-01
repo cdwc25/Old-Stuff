@@ -1,0 +1,6 @@
+7f0095 purple
+
+85fffb blue glow
+fb00f5 purple glow
+
+cddbdb white

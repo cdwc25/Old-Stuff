@@ -1,0 +1,59 @@
+---
+author: CerisaCo
+title: DJ-PR0T0
+notes: A purple protogen-themed costume for the Lunar Lancer. Have fun!
+previewPath: C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/ui/modpreview.PNG
+files:
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/ui/modpreview.PNG
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_arm_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_arm_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_chest.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_foot_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_foot_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_hand_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_hand_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_hips.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_scarf_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_scarf_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_scarf_03.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_scarf_04.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_scarf_05.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shin_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shin_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shoulder_l_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shoulder_l_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shoulder_r_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_shoulder_r_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_tail_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_tail_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_tail_03.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_tail_04.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_thigh_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_thigh_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_torso.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_lvl2_ui.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_arm_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_arm_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_chest.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_foot_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_foot_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_hand_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_hand_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_head.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_hips.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shin_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shin_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shoulder_l_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shoulder_l_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shoulder_r_01.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_shoulder_r_02.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_thigh_l.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_thigh_r.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/c_p_lunarlancer_moonsilver_torso.blueprint
+- C:/Users/conno/Desktop/CERISA LANCER/Fursona Mod Stuff/DJ-PR0T0/blueprints/equipment_helm_lunarlancer_lvl2[delicious].blueprint
+tags:
+- Cosmetics
+- Costume
+- Helmet
+- Lunar Lancer
+...

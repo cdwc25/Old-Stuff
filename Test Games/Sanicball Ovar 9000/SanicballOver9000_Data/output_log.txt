@@ -1,0 +1,183 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 31.0.15.1694]
+    Renderer: NVIDIA GeForce RTX 3060 Ti
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.192 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1440 144Hz; virtual: 4480x1440 at -1920,0
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Ovar 9000\SanicballOver9000_Data\Managed\System.dll (this message is harmless)
+GJAPI: Initialisation complete.
+ [GJAPI]
+Game ID: 17385
+Private Key: [FILTERED]
+Verbose: True
+Version: 1
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+GJAPI: Getting data.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+GJAPI: Opening URL: http://gamejolt.com/api/game/v1/data-store/?game_id=17385&key=players&format=dump&signature=7423073f9348fb9b49391dce8b84eb3b
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Saved data is from an older game version! Removing everything.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+GJAPI: Could not fetch data.
+FAILURE
+The signature you entered for the request is invalid.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Offline mode!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.602900 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 604.
+Total: 2.042800 ms (FindLiveObjects: 0.043500 ms CreateObjectMapping: 0.023000 ms MarkObjects: 0.356800 ms  DeleteObjects: 0.015400 ms)
+
+UnloadTime: 0.395500 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 659.
+Total: 8.667800 ms (FindLiveObjects: 0.025500 ms CreateObjectMapping: 0.011800 ms MarkObjects: 0.207100 ms  DeleteObjects: 8.044900 ms)
+
+The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
+ 
+(Filename:  Line: 650)
+
+Master server is offline. Avoiding accidental server shutdown..
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.489900 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.077100 ms (FindLiveObjects: 0.042400 ms CreateObjectMapping: 0.018300 ms MarkObjects: 0.182800 ms  DeleteObjects: 0.485900 ms)
+
+UnloadTime: 4.579100 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 0.796800 ms (FindLiveObjects: 0.033400 ms CreateObjectMapping: 0.013900 ms MarkObjects: 0.183800 ms  DeleteObjects: 0.253800 ms)
+
+UnloadTime: 7.669300 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 627.
+Total: 9.328199 ms (FindLiveObjects: 0.034600 ms CreateObjectMapping: 0.026000 ms MarkObjects: 0.384000 ms  DeleteObjects: 7.923500 ms)
+
+UnloadTime: 0.805400 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 606.
+Total: 2.091900 ms (FindLiveObjects: 0.052800 ms CreateObjectMapping: 0.029100 ms MarkObjects: 0.536400 ms  DeleteObjects: 0.009400 ms)
+
+UnloadTime: 0.268200 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 660.
+Total: 6.344200 ms (FindLiveObjects: 0.013300 ms CreateObjectMapping: 0.009100 ms MarkObjects: 0.185400 ms  DeleteObjects: 5.830300 ms)
+
+The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
+ 
+(Filename:  Line: 650)
+
+Master server is offline. Avoiding accidental server shutdown..
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.485900 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 1.057400 ms (FindLiveObjects: 0.057900 ms CreateObjectMapping: 0.020400 ms MarkObjects: 0.217900 ms  DeleteObjects: 0.446700 ms)
+
+UnloadTime: 1.801400 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 0.760300 ms (FindLiveObjects: 0.030500 ms CreateObjectMapping: 0.015900 ms MarkObjects: 0.199500 ms  DeleteObjects: 0.205400 ms)
+
+UnloadTime: 6.779400 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 636.
+Total: 13.440500 ms (FindLiveObjects: 0.042900 ms CreateObjectMapping: 0.037100 ms MarkObjects: 0.532200 ms  DeleteObjects: 11.664600 ms)
+
+UnloadTime: 0.417000 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 607.
+Total: 0.928600 ms (FindLiveObjects: 0.023300 ms CreateObjectMapping: 0.016000 ms MarkObjects: 0.293500 ms  DeleteObjects: 0.004100 ms)
+
+UnloadTime: 0.707200 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 661.
+Total: 10.712900 ms (FindLiveObjects: 0.046700 ms CreateObjectMapping: 0.034900 ms MarkObjects: 0.644700 ms  DeleteObjects: 8.742100 ms)
+
+The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
+ 
+(Filename:  Line: 650)
+
+Master server is offline. Avoiding accidental server shutdown..
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.847000 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 1.278100 ms (FindLiveObjects: 0.066000 ms CreateObjectMapping: 0.023500 ms MarkObjects: 0.272500 ms  DeleteObjects: 0.584100 ms)
+
+UnloadTime: 1.090400 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 0.879500 ms (FindLiveObjects: 0.037000 ms CreateObjectMapping: 0.017000 ms MarkObjects: 0.240300 ms  DeleteObjects: 0.262900 ms)
+
+Tried to enabled ghost mode on a player that isn't spawned.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 7.250600 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 622.
+Total: 12.449600 ms (FindLiveObjects: 0.045100 ms CreateObjectMapping: 0.044600 ms MarkObjects: 0.699200 ms  DeleteObjects: 10.385000 ms)
+
+UnloadTime: 0.404600 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 606.
+Total: 0.984600 ms (FindLiveObjects: 0.022400 ms CreateObjectMapping: 0.018500 ms MarkObjects: 0.341900 ms  DeleteObjects: 0.004100 ms)
+
+GJAPI: Quit
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

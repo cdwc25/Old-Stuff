@@ -1,0 +1,144 @@
+\hypertarget{_p_a03_8h}{}\section{P\+A03/\+P\+A03.h File Reference}
+\label{_p_a03_8h}\index{P\+A03/\+P\+A03.\+h@{P\+A03/\+P\+A03.\+h}}
+
+
+Program driver header file.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$regex$>$}\newline
+{\ttfamily \#include \char`\"{}Flight\+Map\+V1.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_p_a03_8h_aba08419d40e9e9aa5e194b2479b97367}\label{_p_a03_8h_aba08419d40e9e9aa5e194b2479b97367}} 
+\#define {\bfseries C\+I\+T\+Y\+\_\+\+F\+I\+LE}~\char`\"{}city\+File.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_p_a03_8h_a59c1d779a1bd4b51c2f38ab05e7090ba}\label{_p_a03_8h_a59c1d779a1bd4b51c2f38ab05e7090ba}} 
+\#define {\bfseries F\+L\+I\+G\+H\+T\+\_\+\+F\+I\+LE}~\char`\"{}flight\+File.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{_p_a03_8h_abdc3c89ad5528d698a3bf81bf9082a7d}\label{_p_a03_8h_abdc3c89ad5528d698a3bf81bf9082a7d}} 
+\#define {\bfseries R\+E\+Q\+U\+E\+S\+T\+\_\+\+F\+I\+LE}~\char`\"{}request\+File.\+txt\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_p_a03_8h_aa5df275aa1b02075ce6891abdb36afae}{load\+Cities} (\hyperlink{class_flight_map}{Flight\+Map} \&, const std\+::string \&)
+\begin{DoxyCompactList}\small\item\em Loads a list of cities from file\+Name and adds them to map. \end{DoxyCompactList}\item 
+void \hyperlink{_p_a03_8h_a2523304d21bd1451f9f76a52ac7bb890}{load\+Flights} (\hyperlink{class_flight_map}{Flight\+Map} \&, const std\+::string \&)
+\begin{DoxyCompactList}\small\item\em Loads a list of flights from file\+Name and adds them to map. \end{DoxyCompactList}\item 
+void \hyperlink{_p_a03_8h_a50dc4eb48c8c56568fd69a34059e91ae}{handle\+Requests} (\hyperlink{class_flight_map}{Flight\+Map} \&, const std\+::string \&)
+\begin{DoxyCompactList}\small\item\em Loads a list of requests from file\+Name and then processes them. \end{DoxyCompactList}\item 
+void \hyperlink{_p_a03_8h_a76973c19ab2e26892c7e0628ed2e80f4}{print\+Flight\+Plan} (std\+::stack$<$ \hyperlink{struct_flight}{Flight} $\ast$$>$)
+\begin{DoxyCompactList}\small\item\em Takes a flight plan and prints it on screen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_p_a03_8h_aa91f63c8f03028dff44e670fa2b06b71}\label{_p_a03_8h_aa91f63c8f03028dff44e670fa2b06b71}} 
+const std\+::regex {\bfseries regex\+Flight} (\char`\"{}$^\wedge$(\mbox{[}\mbox{[}\+:alpha\+:\mbox{]} \mbox{]}+),\mbox{[}\textbackslash{}\mbox{]}(\mbox{[}\mbox{[}\+:alpha\+:\mbox{]} \mbox{]}+)\mbox{[}\textbackslash{}\mbox{]}(\mbox{[}\mbox{[}\+:digit\+:\mbox{]}\mbox{]}+)\mbox{[}\textbackslash{}\mbox{]}(\mbox{[}\mbox{[}\+:digit\+:\mbox{]}\mbox{]}+)\$\char`\"{})
+\item 
+\mbox{\Hypertarget{_p_a03_8h_a993f3f250a5d625ba9921255e546631b}\label{_p_a03_8h_a993f3f250a5d625ba9921255e546631b}} 
+const std\+::regex {\bfseries regex\+Request} (\char`\"{}$^\wedge$(\mbox{[}\mbox{[}\+:alpha\+:\mbox{]} \mbox{]}+),\mbox{[}\textbackslash{}\mbox{]}(\mbox{[}\mbox{[}\+:alpha\+:\mbox{]} \mbox{]}+)\$\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Program driver header file. 
+
+Function prototypes, precompiler macros, and includes for program driver
+
+\begin{DoxyVersion}{Version}
+1.\+00 Alexander Novotny First version 
+\end{DoxyVersion}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_p_a03_8h_a50dc4eb48c8c56568fd69a34059e91ae}\label{_p_a03_8h_a50dc4eb48c8c56568fd69a34059e91ae}} 
+\index{P\+A03.\+h@{P\+A03.\+h}!handle\+Requests@{handle\+Requests}}
+\index{handle\+Requests@{handle\+Requests}!P\+A03.\+h@{P\+A03.\+h}}
+\subsubsection{\texorpdfstring{handle\+Requests()}{handleRequests()}}
+{\footnotesize\ttfamily void handle\+Requests (\begin{DoxyParamCaption}\item[{\hyperlink{class_flight_map}{Flight\+Map} \&}]{map,  }\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Loads a list of requests from file\+Name and then processes them. 
+
+Loads a list of requests from file\+Name, then attempts to find a path for them using map.\+get\+Path() and either tells the client that H\+P\+Air doesn\textquotesingle{}t fly there or gives them their flight plan
+
+\begin{DoxyPrecond}{Precondition}
+file\+Name contains the name of a valid file
+
+map contains a list of cities filled with flights
+\end{DoxyPrecond}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em map} & The \hyperlink{class_flight_map}{Flight\+Map} to get cities and flights from\\
+\hline
+\mbox{\tt in}  & {\em file\+Name} & The name of the file to load cities from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_p_a03_8h_aa5df275aa1b02075ce6891abdb36afae}\label{_p_a03_8h_aa5df275aa1b02075ce6891abdb36afae}} 
+\index{P\+A03.\+h@{P\+A03.\+h}!load\+Cities@{load\+Cities}}
+\index{load\+Cities@{load\+Cities}!P\+A03.\+h@{P\+A03.\+h}}
+\subsubsection{\texorpdfstring{load\+Cities()}{loadCities()}}
+{\footnotesize\ttfamily void load\+Cities (\begin{DoxyParamCaption}\item[{\hyperlink{class_flight_map}{Flight\+Map} \&}]{map,  }\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Loads a list of cities from file\+Name and adds them to map. 
+
+\begin{DoxyPrecond}{Precondition}
+file\+Name contains the name of a valid file
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+map will be filled with any new cities found in the file
+\end{DoxyPostcond}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em map} & The \hyperlink{class_flight_map}{Flight\+Map} to add cities to\\
+\hline
+\mbox{\tt in}  & {\em file\+Name} & The name of the file to load cities from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_p_a03_8h_a2523304d21bd1451f9f76a52ac7bb890}\label{_p_a03_8h_a2523304d21bd1451f9f76a52ac7bb890}} 
+\index{P\+A03.\+h@{P\+A03.\+h}!load\+Flights@{load\+Flights}}
+\index{load\+Flights@{load\+Flights}!P\+A03.\+h@{P\+A03.\+h}}
+\subsubsection{\texorpdfstring{load\+Flights()}{loadFlights()}}
+{\footnotesize\ttfamily void load\+Flights (\begin{DoxyParamCaption}\item[{\hyperlink{class_flight_map}{Flight\+Map} \&}]{map,  }\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Loads a list of flights from file\+Name and adds them to map. 
+
+\begin{DoxyPrecond}{Precondition}
+file\+Name contains the name of a valid file
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Adds any parsed flights from file\+Name into the cities contained in map
+\end{DoxyPostcond}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em map} & The \hyperlink{class_flight_map}{Flight\+Map} to add flights to\\
+\hline
+\mbox{\tt in}  & {\em file\+Name} & The name of the file to load cities from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_p_a03_8h_a76973c19ab2e26892c7e0628ed2e80f4}\label{_p_a03_8h_a76973c19ab2e26892c7e0628ed2e80f4}} 
+\index{P\+A03.\+h@{P\+A03.\+h}!print\+Flight\+Plan@{print\+Flight\+Plan}}
+\index{print\+Flight\+Plan@{print\+Flight\+Plan}!P\+A03.\+h@{P\+A03.\+h}}
+\subsubsection{\texorpdfstring{print\+Flight\+Plan()}{printFlightPlan()}}
+{\footnotesize\ttfamily void print\+Flight\+Plan (\begin{DoxyParamCaption}\item[{std\+::stack$<$ \hyperlink{struct_flight}{Flight} $\ast$$>$}]{flight\+Plan }\end{DoxyParamCaption})}
+
+
+
+Takes a flight plan and prints it on screen. 
+
+\begin{DoxyPrecond}{Precondition}
+flight\+Plan must not be empty
+\end{DoxyPrecond}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em flight\+Plan} & A stack of flights in order of first to last from top to bottom.\\
+\hline
+\mbox{\tt in}  & {\em file\+Name} & The name of the file to load cities from \\
+\hline
+\end{DoxyParams}

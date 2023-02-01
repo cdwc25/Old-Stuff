@@ -1,0 +1,10 @@
+P,W
+P,R
+Q,X
+R,X
+S,T
+T,W
+W,Y
+W,S
+Y,Z
+Y,R

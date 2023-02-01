@@ -1,0 +1,3 @@
+Chicago,San Diego
+Chicago,Albuquerque
+Albuquerque,Chicago

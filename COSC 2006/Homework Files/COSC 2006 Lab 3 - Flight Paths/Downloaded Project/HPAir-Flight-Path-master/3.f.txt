@@ -1,0 +1,30 @@
+Los Angeles,San Diego
+San Diego,San Jose
+San Jose,San Francisco
+San Francisco,Fresno
+San Francisco,Las Vegas
+Fresno,Sacramento
+Sacramento,Long Beach
+Long Beach,Oakland
+Oakland,Bakersfield
+Bakersfield,Los Angeles
+Portland,San Antonio
+Portland,Atlanta
+Las Vegas,Portland
+Phoenix,Las Vegas
+Albuquerque,Phoenix
+Dallas,Albuquerque
+San Antonio,Dallas
+San Antonio,Los Angeles
+New Orleans,Orlando
+Orlando,Atlanta
+Atlanta,Nashville
+Nashville,Kansas City
+Kansas City,St. Louis
+Kansas City,Dallas
+St. Louis,Chicago
+Chicago,Minneapolis
+Chicago,Dallas
+Minneapolis,Detroit
+Detroit,Columbus
+Columbus,New Orleans

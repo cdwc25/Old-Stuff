@@ -1,0 +1,3 @@
+Albuquerque,San Diego
+Albuquerque,Paris
+San Diego,Chicago

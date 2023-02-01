@@ -1,0 +1,135 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   31.0.15.1694
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\SanicballCore.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\SanicballCore.dll into Unity Child Domain
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Lidgren.Network.dll (this message is harmless)
+Loading C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\Lidgren.Network.dll into Unity Child Domain
+- Completed reload, in  0.499 seconds
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on MatchManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1440 144Hz; virtual: 4480x1440 at -1920,0
+<RI> Initialized touch support.
+UnloadTime: 0.716100 ms
+GameSettings.json has not been loaded - file not found.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GameKeybinds.json has not been loaded - file not found.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchSettings.json has not been loaded - file not found.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Records.json has not been loaded - file not found.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.132500 ms
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\System.Xml.dll (this message is harmless)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 1.331000 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.141400 ms  DeleteObjects: 0.030300 ms)
+
+New client Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.009600 ms
+
+Unloading 263 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 1.167100 ms (FindLiveObjects: 0.068900 ms CreateObjectMapping: 0.048500 ms MarkObjects: 0.864700 ms  DeleteObjects: 0.184500 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.158200 ms
+
+Unloading 240 unused Assets to reduce memory usage. Loaded Objects now: 10177.
+Total: 2.088000 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.163400 ms  DeleteObjects: 0.406500 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.802500 ms
+
+Unloading 273 unused Assets to reduce memory usage. Loaded Objects now: 3035.
+Total: 9.116199 ms (FindLiveObjects: 0.097900 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.329500 ms  DeleteObjects: 7.638400 ms)
+
+New client Test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.189400 ms
+
+Unloading 263 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 1.381200 ms (FindLiveObjects: 0.107000 ms CreateObjectMapping: 0.052700 ms MarkObjects: 0.991200 ms  DeleteObjects: 0.229700 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.386700 ms
+
+Unloading 241 unused Assets to reduce memory usage. Loaded Objects now: 10181.
+Total: 4.933900 ms (FindLiveObjects: 0.743500 ms CreateObjectMapping: 0.290900 ms MarkObjects: 2.988500 ms  DeleteObjects: 0.908500 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.850900 ms
+
+Unloading 272 unused Assets to reduce memory usage. Loaded Objects now: 3040.
+Total: 8.783900 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.236700 ms  DeleteObjects: 6.286900 ms)
+
+Platform assembly: C:\Users\CERISACO-DESKTOP\Desktop\MAIN STUFF\Archives\Other Archive\Test Games\Sanicball Infinite\Sanicball Infinite_Data\Managed\System.Data.dll (this message is harmless)
+GameSettings.json saved successfully.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GameKeybinds.json saved successfully.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchSettings.json saved successfully.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Records.json saved successfully.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 2130 -> priority: 1 
+  Thread -> id: 4608 -> priority: 1 
+  Thread -> id: 21a0 -> priority: 1 
+  Thread -> id: 272c -> priority: 1 
+  Thread -> id: 3c30 -> priority: 1 
+  Thread -> id: 47ac -> priority: 1 
+  Thread -> id: 64 -> priority: 1 
+  Thread -> id: 2748 -> priority: 1 
